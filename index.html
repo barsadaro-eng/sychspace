@@ -1,1 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jhon</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+  <link rel="shortcut icon" type="image/x-icon" href="https://u.cubeupload.com/BrunoT/ChatGPTImage7deabrde.png" />
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+  <div class="background-animation"></div>
+  
+  <div class="music-player">
+    <button id="musicToggle">
+      <i data-lucide="music" class="music-icon"></i>
+    </button>
+    <audio id="audioPlayer" src="music/wt.mp3" loop></audio>
+  </div>
 
+  <nav class="navigation">
+    <button class="nav-btn active" data-page="home">
+      <i data-lucide="home"></i>
+      <span>Home</span>
+    </button>
+    <button class="nav-btn" data-page="contact" onclick="window.open('https://forum.xat.com/profile/41787/', '_blank')" >
+      <i data-lucide="Contact"></i>
+      <span>Contact</span>
+    </button>
+
+      </button>
+    <button class="nav-btn" data-page="contact" onclick="window.open('https://xat.com/Jh0n', '_blank')">
+  <i data-lucide="message-circle"></i>
+  <span>Chat</span>
+</button>
+    <button class="nav-btn" data-page="contact" onclick="window.open('https://xat.com/trade', '_blank')">
+      <img src="https://xatimg.com/image/cLzfQ0Cg06C3.png" 
+       alt="Trade" 
+       style="width:24px; height:24px;">
+      <span>Trade</span>
+  </button>
+
+  </nav>
+
+  <main class="container">
+    <!-- Home Page -->
+    <div class="page active" id="home">
+      <div class="profile-card">
+        <div class="profile-image">
+          <div class="jhon-border">
+            <img src="https://xatimg.com/image/MjeWd1SYnYh9.png" alt="Profile Photo">
+          </div>
+        </div>
+        <h1 style="color: black;">Jhon</h1>
+        <p class="subtitle" style="color: black;">(121997)</p>
+        <p class="profile-description" style="color: black;">
+         Bog/Col.
+        </p>
+      </div>
+    </div>
+
+  
+
+
+    <!-- Chat Page -->
+    <div class="page" id="chat">
+      <div class="chat-container">
+        <div class="chat-messages"></div>
+        <div class="chat-input">
+          <input type="text" placeholder="Type your message...">
+          <button><i data-lucide="send"></i></button>
+        </div>
+      </div>
+    </div>
+
+
+<div style="position: fixed; bottom: 0; left: 0; opacity: 0; pointer-events: none;">
+  <a href="https://info.flagcounter.com/uCLu">
+    <img src="https://s01.flagcounter.com/count/uCLu/bg_000000/txt_FFFFFF/border_CCCCCC/columns_6/maxflags_20/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter">
+  </a>
+</div>
+    
+  </main>
+
+  <div id="galleryModal" class="modal">
+    <span class="modal-close">&times;</span>
+    <img class="modal-content" id="modalImg">
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
