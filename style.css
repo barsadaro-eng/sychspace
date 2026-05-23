@@ -57,7 +57,7 @@ html {
 	/* Base metálica dorada premium */
 	color: #D4AF37;
 	/* Máscara de degradado líquido para el reflejo brillante tipo GIF */
-	background: linear-gradient(to right, #D4AF37 0%, #D4AF37 40%, #ffffff 50%, #D4AF37 60%, #D4AF37 100%);
+	background: linear-gradient(to right, #000080 0%, #000080 40%, #ffffff 50%, #000080 60%, #000080 100%);
 	background-size: 200% auto;
 	background-clip: text;
 	-webkit-background-clip: text;
