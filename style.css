@@ -3,8 +3,8 @@ body,
 html {
 	margin: 0;
 	padding: 0;
-	width: 1350%;
-	height: 700%;
+	width: 100%;
+	height: 100%;
 	overflow: hidden;
 	font-family: "Segoe UI", Arial, sans-serif;
 }
@@ -17,7 +17,7 @@ html {
 	height: 100%;
 	/* Fusión de degradado radial: centro iluminado oro puro, bodes bronce profundo */
 	background:linear-gradient(rgba(66, 50, 25, 0.6), rgba(66, 50, 25, 0.6)), 
-                url('https://xatimg.com/image/oadZ1t3e12lV.gif');
+                url('https://xatimg.com/image/ibkRH5wgRwtX.gif');
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
