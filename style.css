@@ -13,8 +13,8 @@ html {
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 100%;
-	height: 100%;
+	width: 1350%;
+	height: 700%;
 	/* Fusión de degradado radial: centro iluminado oro puro, bodes bronce profundo */
 	background:linear-gradient(rgba(66, 50, 25, 0.6), rgba(66, 50, 25, 0.6)), 
                 url('https://xatimg.com/image/ibkRH5wgRwtX.gif');
